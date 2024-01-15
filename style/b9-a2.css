@@ -11,6 +11,7 @@
     width: 82%;
     margin: 50px auto;
 }
+
 /* nav start here */
 .nav-container {
     display: flex;
@@ -50,7 +51,7 @@
 
 .nav-bar .home {
     color: #FF5400;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .menu {
@@ -60,34 +61,103 @@
 .nav-container .nav-bar li {
     list-style: none;
 }
+
 /* nav ends here */
+
+/* banner section start here */
+.banner-container {
+    background-image: url("../style/Images/Group\ 13\ \(1\)\ \(1\).png"), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    height: 615px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-text {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.banner-input_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-input_container input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border:none;
+}
+.select-container{
+    display:flex;
+    position:relative;
+}
+.select-container .select-container-icon{
+    position:absolute;
+    right: 0;
+    width:30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-container .select-box{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border:none;
+    appearance: none;
+}
+
+/* banner section ends here */
 
 @media screen and (max-width:576px) {
     .container {
         width: 90%;
         margin: 18px auto;
-    } 
+    }
+
     .nav-img {
         max-width: 1.75rem;
     }
+
     .nav-heading {
         font-size: 1.346rem;
     }
-    
+
     .nav-heading .important {
         font-size: 1.346rem;
     }
+
     .nav-bar .list {
-       display: none;
+        display: none;
     }
-    .nav-container{
+
+    .nav-container {
         display: flex;
-        justify-content:space-between;
-        align-items: center;  
+        justify-content: space-between;
+        align-items: center;
     }
-    
+
     .menu {
         display: block;
-       width: 1.5 rem;
+        width: 1.5 rem;
     }
 }
