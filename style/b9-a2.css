@@ -12,6 +12,16 @@
     margin: 50px auto;
 }
 
+.btn-primary {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
 .select-btn {
     border-radius: 8px;
     background: #FF5400;
@@ -19,6 +29,11 @@
     border: none;
 }
 
+.primary-text1 {
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 1.625rem;
+}
 
 /* nav start here */
 .nav-container {
@@ -152,7 +167,7 @@
 .banner-input_container input,
 .select-box {
     padding-left: 10px;
-    color: rgba(19, 19, 24, 0.50); 
+    color: rgba(19, 19, 24, 0.50);
 }
 
 .banner-input_container button {
@@ -166,6 +181,38 @@
 
 
 /* banner section ends here */
+/* main section start here */
+
+/* popular section start here */
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+}
+
+.popular-tour-text{
+    max-width: 620px;
+}
+.popular-tour-text p{
+    margin-bottom:1.5rem;
+
+}
+.popular-tour-text ul{
+    padding-left:20px;
+    max-width: 540px;
+}
+.popular-tour-text li{
+    margin-bottom: 1.25rem;
+}
+.tour-btn{
+    margin-top:1.5rem;
+}
+.popular-tour .pop-tour-des-heading {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
 
 @media screen and (max-width:576px) {
     .container {
@@ -237,6 +284,7 @@
         width: 255px;
         height: 56px;
     }
+
     /* banner section ends */
     /* header section ends */
 }
